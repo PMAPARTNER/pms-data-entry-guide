@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '',
-  trailingSlash: true,
+  basePath: '/pms-data-entry-guide',
   images: {
     unoptimized: true,
   },
